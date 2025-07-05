@@ -1,0 +1,146 @@
+<!-- <form action="/submit"method="post">
+                <label>Name:</label>
+                <input type="text" placeholder="Enter your name">
+
+                <label>Mobile No.:</label>
+                <input type="tel" placeholder="Enter mobile no.">
+
+                <label>Email ID:</label>
+                <input type="email" placeholder="Enter your email">
+
+                <label>Address:</label>
+                <input type="text" placeholder="Enter your current address">
+
+                <label>District Name:</label>
+                <input type="text" placeholder="District name">
+
+                <label>State:</label>
+                <select name="state" id="state">
+                    <option value="uttar pradesh">Uttar Pradesh</option>
+                </select>
+
+                <label>Ambulance Type:</label>
+                <select name="ambulance_type" id="ambulance_type">
+                    <option value="basic life support ambulance">Basic Life Support Ambulance</option>
+                    <option value="cardiac ambulance">Cardiac Ambulance</option>
+                    <option value="dead body ambulance">Dead Body Ambulance</option>
+                    <option value="icu ambulance">ICU Ambulance</option>
+                </select>
+
+                <label>Message:</label>
+                <textarea rows="4" placeholder="Your message here..."></textarea>
+
+                <input type="submit" value="Submit">
+            </form>-->
+
+            /* 
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+   
+    background-color:  rgb(176, 241, 237);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: rgb(20, 255, 220);
+    color: rgb(0, 0, 250);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header h2 {
+    color:blue;
+}
+
+/* Navigation */
+nav {
+    background-color: rgb(176, 241, 237);
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Forms */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: yellow;
+}
+
+/* Links */
+.links a {
+    display: inline-block;
+    margin: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f4f4f4;
+   
+}
+.box{
+    background-color: aliceblue;
+     height: 400px;
+     width:32%;
+}
+.first-img{
+    background-size: cover;
+    height:310px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+} 
+

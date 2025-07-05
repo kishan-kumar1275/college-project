@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambulance Booking System</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+         <a href="index.html"><strong>Home</strong></a>
+         <a href="support.html">Support-Us</a>
+        
+
+    <!-- Ambulance Team Dropdown -->
+    <div class="dropdown" style="margin-right: 20px;">
+        <button class="dropbtn">Ambulance Team</button>
+        <div class="dropdown-content">
+            <a href="#">Kishan</a>
+            <a href="#">Abhishek</a>
+            <a href="#">Sahil</a>
+        </div>
+    </div>
+
+    <!-- Available Ambulances Dropdown -->
+    <div class="dropdown">
+        <button class="dropbtn">Available Ambulances</button>
+        <div class="dropdown-content">
+            <a href="ambulance1.html">Ambulance 1</a>
+            <a href="ambulance2.html">Ambulance 2</a>
+            <a href="ambulance3.html">Ambulance 3</a>
+        </div>
+    </div>
+    
+       
+        <hr>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h2>
+            Book An Ambulance Instantly. Fast, Reliable & Nearest To You.
+            <br>Contact us: 7267996782
+        </h2>
+    </header>
+
+    <main>
+        <hr>
+
+        <!-- Quick Request Section -->
+        <section class="quick-form">
+            <h2>Fill in the details, you will receive a call within minutes</h2>
+            <form action="/Request-Callback" method="POST">
+                <input type="text" name="name" placeholder="Enter Full Name" required><br>
+                <input type="tel" name="mobile" placeholder="Enter Contact No." required><br>
+                <input type="submit" value="Request a Callback">
+            </form>
+        </section>
+
+        <!-- Detailed Form Section -->
+        <section class="detailed-form"><br>
+            <h2>Fill in the details</h2>
+            <form action="/Book-Ambulance" method="POST">
+  <label>Name:</label>
+  <input type="text" name="name" placeholder="Enter your name"required>
+
+  <label>Mobile No.:</label>
+  <input type="tel" name="mobile" placeholder="Enter mobile no." required>
+
+  <label>Email ID:</label>
+  <input type="email" name="email" placeholder="Enter your email" required>
+
+  <label>Address:</label>
+  <input type="text" name="address" placeholder="Enter your current address" required>
+
+  <label>District Name:</label>
+  <input type="text" name="district" placeholder="District name" required>
+
+  <label>State:</label>
+  <select name="state">
+    <option value="uttar pradesh">Uttar Pradesh</option>
+  </select>
+
+  <label>Ambulance Type:</label>
+  <select name="ambulance_type">
+    <option value="basic life support ambulance">Basic Life Support Ambulance</option>
+    <option value="cardiac ambulance">Cardiac Ambulance</option>
+    <option value="dead body ambulance">Dead Body Ambulance</option>
+    <option value="icu ambulance">ICU Ambulance</option>
+  </select>
+
+  <label>Date_time:</label>
+  <textarea name="Date_time"  placeholder="Your Home arrieved date and time"></textarea>
+
+  <input type="submit" value="Book Ambulance">
+</form>
+ </section>
+
+ <div class="image">
+    <div class="box" >
+    <h2>Basic Life Support Ambulance</h2>
+    <div class="first-img" style="background-image:url('b ambulance.jpg') ;"></div>
+    </div>
+
+<div class="box">
+    <h2>Cardiac Ambulance</h2>
+    <div class="first-img" style="background-image:url('c-ambulance.jpg') ;"></div> </div>
+
+<div class="box">
+    <h2>Dead body Ambulance</h2>
+    <div class="first-img" style="background-image:url('d-ambulance.jpg') ;"></div></div>
+
+</div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+       
+        <a href="about-us.html">About Us</a>
+         <p>Contact Us- 7267996782,8115579616,8299285158</p>
+        <p>Email: prime@gmail.com</p>
+         <p>Ambulance Center- Byaspur,Nigtpur,Mirzapur,UP</p>
+    </footer>
+
+</body>
+</html>
